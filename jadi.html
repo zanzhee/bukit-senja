@@ -87,7 +87,7 @@
                   <li class="pricing-benefit-item">APA?? Ya udah langsung aja <br> buru beli tiketnya -_- <br> mau protes kenapa 5 ribu? <br> ya serah saya lah, wong saya pengelolanya. Salah saya dimana? wong saya suka kok.</li>
               </ul>
               <span class="pricing-price">Rp 5.000</span>
-              <a href="https://laznasalirsyad.org/tabs-zakat-infaq-paymentgatway/" target="_blank" class="pricing-button">Beli Tiket</a>
+              <a href="#" onclick="alert(payment())" class="pricing-button">Beli Tiket</a>
           </div>
         </div>
       </div>
@@ -128,6 +128,10 @@
 
         document.getElementById(sectionId).style.display = 'block';
       }
+
+    function payment() {
+      alert("Maaf, Pembelian tiket belum tersedia");
+    }
     </script>
   </body>
 </html>
